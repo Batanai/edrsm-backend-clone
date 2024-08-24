@@ -1,0 +1,27 @@
+﻿@page
+@model IndexModel
+<table class="table table-sm table-hover">
+    <thead>
+        <tr>
+            <th>Ticket number</th>
+            <th>Status</th>
+            <th>Ticket type</th>
+            <th>Contact</th>
+            <th>Assigned to</th>
+            <th>Creation date</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.List)
+        {
+         <tr>
+             <td><a asp-page="./Detail" asp-route-id="@item.Number">@item.Number</a></td>
+             <td class="small">@item.Status.ToHtml()</td>
+             <td class="small">@item.Type.ToEnumString()</td>
+             <td>@item.ContactId <span class="text-muted small">@item.Contact.Name</span></td>
+             <td>@item.Assignee.Name</td>
+             <td class="small">@item.CreationDate.ToLongDateTime()</td>
+         </tr>   
+        }
+    </tbody>
+</table>

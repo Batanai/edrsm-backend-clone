@@ -1,0 +1,92 @@
+[
+  {
+    "Id": 1,
+    "IncidentTypeId": 1,
+    "HeadingName": "Report Fire Incident"
+  },
+  {
+    "Id": 2,
+    "IncidentTypeId": 1,
+    "HeadingName": "Report Disaster"
+  },
+  {
+    "Id": 3,
+    "IncidentTypeId": 1,
+    "HeadingName": "Report Accident"
+  },
+  {
+    "Id": 4,
+    "IncidentTypeId": 1,
+    "HeadingName": "Request Assistance"
+  },
+  {
+    "Id": 5,
+    "IncidentTypeId": 1,
+    "HeadingName": "Track Emergency Report"
+  },
+  {
+    "Id": 6,
+    "IncidentTypeId": 1,
+    "HeadingName": "Report Water Leak"
+  },
+  {
+    "Id": 7,
+    "IncidentTypeId": 2,
+    "HeadingName": "No Water Supply"
+  },
+  {
+    "Id": 8,
+    "IncidentTypeId": 2,
+    "HeadingName": "Water Quality Concerns"
+  },
+  {
+    "Id": 9,
+    "IncidentTypeId": 2,
+    "HeadingName": "Request Assistance"
+  },
+  {
+    "Id": 10,
+    "IncidentTypeId": 2,
+    "HeadingName": "Water Billing Queries"
+  },
+  {
+    "Id": 11,
+    "IncidentTypeId": 2,
+    "HeadingName": "Track Resolution"
+  },
+  {
+    "Id": 12,
+    "IncidentTypeId": 2,
+    "HeadingName": "View Emergency Contacts"
+  },
+  {
+    "Id": 13,
+    "IncidentTypeId": 3,
+    "HeadingName": "Report Fraud"
+  },
+  {
+    "Id": 14,
+    "IncidentTypeId": 3,
+    "HeadingName": "Report Corruption"
+  },
+  {
+    "Id": 15,
+    "IncidentTypeId": 4,
+    "HeadingName": "Request Ambulance"
+  },
+  {
+    "Id": 16,
+    "IncidentTypeId": 4,
+    "HeadingName": "Crime"
+  },
+  {
+    "Id": 17,
+    "IncidentTypeId": 4,
+    "HeadingName": "Riot Alert"
+  },
+  {
+    "Id": 18,
+    "IncidentTypeId": 4,
+    "HeadingName": "Other"
+  }
+]
